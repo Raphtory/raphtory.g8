@@ -1,12 +1,9 @@
-A [Giter8][g8] template for ...!
+## raphtory.g8
 
-Template license
-----------------
-Written in <YEAR> by <AUTHOR NAME> <AUTHOR E-MAIL ADDRESS>
-[other author/contributor lines as appropriate]
+A minimal giter8 seed template for raphtory based project.
 
-To the extent possible under law, the author(s) have dedicated all copyright and related
-and neighboring rights to this template to the public domain worldwide.
-This template is distributed without any warranty. See <http://creativecommons.org/publicdomain/zero/1.0/>.
-
-[g8]: http://www.foundweekends.org/giter8/
+## Usage
+To create a new project from this template use following command:
+```sh
+$ sbt new raphtory/raphtory.g8
+```
