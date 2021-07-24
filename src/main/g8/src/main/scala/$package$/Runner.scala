@@ -1,5 +1,7 @@
 package $package$
 
+import $package$.graphbuilders.$classname_prefix$GraphBuilder
+import $package$.spouts.$classname_prefix$Spout
 import com.raphtory.RaphtoryGraph
 import com.raphtory.algorithms.{ConnectedComponents, DegreeBasic}
 
