@@ -1,3 +1,5 @@
+.idea/
+.bsp/
 target/
 boot/
 lib_managed/
