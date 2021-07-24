@@ -8,7 +8,13 @@ A minimal [giter8](http://www.foundweekends.org/giter8/index.html) seed template
     $ sbt new raphtory/raphtory.g8
     ```
 
-2. Download the raphtory.jar [here](https://github.com/Raphtory/Raphtory/releases/latest/download/raphtory.jar), create a `lib` directory under `root` directory. Move the downloaded jar into the `lib` directory.
+2. Download the raphtory.jar [here](https://github.com/Raphtory/Raphtory/releases/download/0.11/raphtory-v0.11.jar), create a `lib` directory under `root` directory. Move the downloaded jar into the `lib` directory.
+
+    ```sh
+    $ mkdir lib
+    $ cd lib
+    $ wget https://github.com/Raphtory/Raphtory/releases/download/0.11/raphtory-v0.11.jar
+    ```
 
 3. After making changes to your classes, run your analysis as shown below. 
     ```
