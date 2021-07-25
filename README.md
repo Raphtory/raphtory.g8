@@ -5,7 +5,7 @@ A minimal [giter8](http://www.foundweekends.org/giter8/index.html) seed template
 ## Usage
 1. Unfold this template into a new project use following command:
     ```sh
-    $ sbt new raphtory/raphtory.g8
+    $ sbt new Raphtory/raphtory.g8
     ```
 
 2. Download the raphtory.jar [here](https://github.com/Raphtory/Raphtory/releases/download/0.11/raphtory-v0.11.jar), create a `lib` directory under `root` directory. Move the downloaded jar into the `lib` directory.
