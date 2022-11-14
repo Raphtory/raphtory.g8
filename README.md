@@ -3,23 +3,23 @@
 A minimal [giter8](http://www.foundweekends.org/giter8/index.html) seed template for raphtory based project.
 
 ## Usage
-1. Unfold this template into a new project use following command:
-    ```sh
-    $ sbt new Raphtory/raphtory.g8
+Unfold this template into a new project use following command:
+    
+```sh
+$ sbt new Raphtory/raphtory.g8
+```
+
+## Run Graph Analysis
+Graph can be created locally or on a remote server
+- To create and run analysis on a graph locally
+    ```
+    $ sbt "runMain com.pometry.Runner"
     ```
 
-2. Download the raphtory.jar [here](https://github.com/Raphtory/Raphtory/releases/download/0.11/raphtory-v0.11.jar), create a `lib` directory under `root` directory. Move the downloaded jar into the `lib` directory.
+- To create and run analysis on a graph remotely, first start ("Standalone", for instance) server and then connect it using remote context
+  ```
+  $ sbt "runMain com.raphtory.service.Standalone"
+  $ sbt "runMain com.pometry.RemoteRunner"
+  ```
 
-    ```sh
-    $ mkdir lib
-    $ cd lib
-    $ wget https://github.com/Raphtory/Raphtory/releases/download/0.11/raphtory-v0.11.jar
-    ```
-
-3. After making changes to your classes, run your analysis as shown below. 
-    ```
-    $ sbt run
-    ```
-
-    **Note**: Refer sample examples [here](https://github.com/Raphtory/Examples).
-
+     **Note**: Refer sample examples [here](https://github.com/Raphtory/Examples).
