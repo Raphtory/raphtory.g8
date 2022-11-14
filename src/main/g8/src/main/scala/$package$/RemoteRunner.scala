@@ -9,7 +9,7 @@ import com.raphtory.sinks.FileSink
 import com.raphtory.spouts.FileSpout
 import com.raphtory.utils.FileUtils
 
-object Runner extends RaphtoryApp.Local {
+object RemoteRunner extends RaphtoryApp.Remote() {
   override def run(args: Array[String], ctx: RaphtoryContext): Unit =
     ctx.runWithNewGraph() { graph =>
       val path = "/tmp/lotr.csv"
