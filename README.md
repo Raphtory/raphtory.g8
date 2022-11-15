@@ -22,4 +22,4 @@ Graph can be created locally or on a remote server
   $ sbt "runMain com.pometry.RemoteRunner"
   ```
 
-     **Note**: Refer sample examples [here](https://github.com/Raphtory/Examples).
+     **Note**: Refer sample examples [here](https://github.com/Raphtory/Raphtory/tree/development/examples).
